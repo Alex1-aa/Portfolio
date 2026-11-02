@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import '../styles.css';
 
-// Each project runs on its own port; reuse the current hostname so links also work from other devices on the network.
-const projectUrl = port => `${window.location.protocol}//${window.location.hostname}:${port}`;
-
 const projects = [
   {
     number: '01',
@@ -13,7 +10,7 @@ const projects = [
     title: 'Taskflow',
     description: 'A task management workspace with a React frontend and a Node.js REST API for creating, updating, and deleting tasks.',
     link: 'Open live app',
-    url: projectUrl(3003),
+    url: 'https://taskflow-eta-one-42.vercel.app/',
     tags: ['React', 'Node.js', 'REST API'],
     visual: 'visual-lime',
     visualLabel: '01 — build / learn / iterate',
@@ -26,7 +23,7 @@ const projects = [
     title: 'Personal Finance',
     description: 'A personal finance dashboard that makes spending, budgets, and savings goals legible through clear charts and summaries.',
     link: 'Open live app',
-    url: projectUrl(3001),
+    url: 'https://finance-umber-six.vercel.app/',
     tags: ['React', 'TypeScript', 'Recharts'],
     visual: 'visual-blue',
     visualLabel: '02 — systems thinking',
@@ -39,7 +36,7 @@ const projects = [
     title: 'Weather',
     description: 'A weather forecast app with location search, a six-day outlook, saved preferences, and friendly loading and error states.',
     link: 'Open live app',
-    url: projectUrl(3002),
+    url: 'https://weather-tau-ivory-39.vercel.app/',
     tags: ['React', 'Open-Meteo API', 'Vitest'],
     visual: 'visual-paper',
     visualLabel: '03 — make it clear',
