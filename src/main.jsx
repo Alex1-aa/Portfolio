@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import '../styles.css';
 
-// TODO: replace with your real LinkedIn profile URL.
-const LINKEDIN_URL = 'https://www.linkedin.com/in/your-profile';
+const LINKEDIN_URL = 'https://www.linkedin.com/in/ayo-adejare-82b454308';
 
 const projects = [
   {
