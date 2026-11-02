@@ -342,7 +342,7 @@ function Contact() {
             https://github.com/Alex1-aa<span>↗</span>
           </a>
           <a href={LINKEDIN_URL} target="_blank" rel="noreferrer">
-            LinkedIn <span>↗</span>
+              https://www.linkedin.com/in/ayo-adejare-82b454308<span>↗</span>
           </a>
           <a href="mailto:adejareayo1@gmail.com">
             adejareayo1@gmail.com <span>↗</span>
