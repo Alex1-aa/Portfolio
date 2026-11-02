@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import '../styles.css';
 
+// TODO: replace with your real LinkedIn profile URL.
+const LINKEDIN_URL = 'https://www.linkedin.com/in/your-profile';
+
 const projects = [
   {
     number: '01',
@@ -338,6 +341,9 @@ function Contact() {
           <span className="details-label">Find me here</span>
           <a href="https://github.com/Alex1-aa" target="_blank" rel="noreferrer">
             https://github.com/Alex1-aa<span>↗</span>
+          </a>
+          <a href={LINKEDIN_URL} target="_blank" rel="noreferrer">
+            LinkedIn <span>↗</span>
           </a>
           <a href="mailto:adejareayo1@gmail.com">
             adejareayo1@gmail.com <span>↗</span>
